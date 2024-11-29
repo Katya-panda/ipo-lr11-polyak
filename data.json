@@ -4,6 +4,11 @@
             "name": "3",
             "cargo_weight": 1.0,
             "is_vip": true
+        },
+        {
+            "name": "Katya",
+            "cargo_weight": 10.0,
+            "is_vip": true
         }
     ],
     "vehicles": []
