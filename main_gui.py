@@ -290,7 +290,7 @@ def distribute_cargo_results():  # функция для отображения 
     # создаем окно для отображения результатов
     with dpg.window(label = "Распределение груза", modal = True, width = 1000, height = 800, tag = "cargo_distribution_window"):
         # создаем таблицу для отображения результатов
-        with dpg.table(header_row=True):  # создаем таблицу с заголовком
+        with dpg.table(header_row = True):  # создаем таблицу с заголовком
             dpg.add_table_column(label = "Транспортное средство")  # добавляем столбец "Транспортное средство"
             dpg.add_table_column(label = "Грузоподъемность")  # добавляем столбец "Грузоподъемность"
             dpg.add_table_column(label = "Текущий груз")  # добавляем столбец "Текущий груз"
