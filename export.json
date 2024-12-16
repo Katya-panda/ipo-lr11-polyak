@@ -1,17 +1,17 @@
 {
     "clients": [
         {
-            "name": "Ann",
-            "cargo_weight": 100,
-            "is_vip": false
+            "name": "Light",
+            "cargo_weight": 10000,
+            "is_vip": true
         }
     ],
     "vehicles": [
         {
-            "vehicle_id": "edd52d1c-35e5-43fe-8f8d-3842795d99b7",
-            "capacity": 1000,
+            "vehicle_id": "493e0f80-1159-4e65-ac26-0ffd92757c33",
+            "capacity": 989,
             "current_load": 0,
-            "type": "Airplane",
+            "type": "Van",
             "details": {
                 "flight_height": null,
                 "has_refrigerator": null
