@@ -1,0 +1,21 @@
+{
+    "clients": [
+        {
+            "name": "Ann",
+            "cargo_weight": 100,
+            "is_vip": false
+        }
+    ],
+    "vehicles": [
+        {
+            "vehicle_id": "edd52d1c-35e5-43fe-8f8d-3842795d99b7",
+            "capacity": 1000,
+            "current_load": 0,
+            "type": "Airplane",
+            "details": {
+                "flight_height": null,
+                "has_refrigerator": null
+            }
+        }
+    ]
+}
