@@ -131,7 +131,7 @@ def show_client_form():  # функция для отображения форм
     if dpg.does_item_exist("client_form"):  # проверка, существует ли уже форма "client_form"
         return  # если форма существует, выходим из функции
     # создание окна для добавления клиента
-    with dpg.window(label = "Добавить клиента", width = 400, height = 300, modal = True, tag = "client_form"):
+    with dpg.window(label = "Добавить клиента", width = 500, height = 500, modal = True, tag = "client_form"):
         dpg.add_text("Имя клиента: ")  # добавляем текстовое поле "Имя клиента"
         dpg.add_input_text(tag = "client_name", width = 250)  # добавляем поле ввода текста для имени клиента
         dpg.add_text("Вес груза: ")  # добавляем текстовое поле "Вес груза"
