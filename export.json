@@ -1,0 +1,21 @@
+{
+    "clients": [
+        {
+            "name": "Light",
+            "cargo_weight": 10000,
+            "is_vip": true
+        }
+    ],
+    "vehicles": [
+        {
+            "vehicle_id": "493e0f80-1159-4e65-ac26-0ffd92757c33",
+            "capacity": 989,
+            "current_load": 0,
+            "type": "Van",
+            "details": {
+                "flight_height": null,
+                "has_refrigerator": null
+            }
+        }
+    ]
+}
